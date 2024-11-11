@@ -53,11 +53,3 @@ Feel free to fork and contribute adding more feature thanks.
 
 Bot running using twister, so if you run multiple account maybe some account not showed on your terminal because it depens on your windows screen, but it still running. you can check on `app.log`.
 
-## SUPPORT
-
-want to support me for creating another bot ?
-buy me a coffee on
-
-EVM : `0x0fd08d2d42ff086bf8c6d057d02d802bf217559a`
-
-SOLANA : `3tE3Hs7P2wuRyVxyMD7JSf8JTAmEekdNsQWqAnayE1CN`
