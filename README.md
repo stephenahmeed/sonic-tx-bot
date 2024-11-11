@@ -41,8 +41,8 @@ npm install
 cp account_tmp.js account.js && cp proxy_list_tmp.js proxy_list.js
 ```
 
-- fill up account.js `nano account.js` fill with your account private key
-- fill up proxy_list.js `nano proxy_list.js` fill with your proxy list
+- fill up account.js `account.js` fill with your account private key
+- fill up proxy_list.js `proxy_list.js` fill with your proxy list
 
 ### 6. To Run Bot
 
