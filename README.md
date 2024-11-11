@@ -18,14 +18,40 @@ Sonic TX bot for adding more tx on chain
 - Node JS > v18
 
 ## SETUP
+### 1. Open CodeSpace
+https://github.com/codespaces
 
-- run `git clone https://github.com/stephenahmeed/sonic-tx-bot.git`
-- run `cd sonic-tx-bot`
-- run `npm install`
-- run `cp account_tmp.js account.js && cp proxy_list_tmp.js proxy_list.js` 
+### 2. Clone project repo
+```bash
+git clone https://github.com/stephenahmeed/sonic-tx-bot.git
+```
+### 3. Go To Bot Directory
+```
+cd sonic-tx-bot
+```
+
+### 4. Instal Dependecies
+
+```bash
+npm install
+```
+
+### 5. Run
+```bash
+cp account_tmp.js account.js && cp proxy_list_tmp.js proxy_list.js
+```
+
 - fill up account.js `nano account.js` fill with your account private key
 - fill up proxy_list.js `nano proxy_list.js` fill with your proxy list
-- npm run start
+
+### 6. To Run Bot
+
+```bash
+npm run start
+```
+
+### Join My Airdrop Channel For Upcoming Update: https://t.me/sabbirofficialairdrop
+
 
 ## CONFIGURATION
 
@@ -44,12 +70,4 @@ to configure destination address list, open `src config/address_list.js` adjust 
 ## HOW TO UPDATE
 
 to update just run `git pull` or if it failed because of unstaged commit, just run `git stash` and then `git pull`. after that do `npm install` or `npm update`.
-
-## CONTRIBUTE
-
-Feel free to fork and contribute adding more feature thanks.
-
-## NOTE
-
-Bot running using twister, so if you run multiple account maybe some account not showed on your terminal because it depens on your windows screen, but it still running. you can check on `app.log`.
 
