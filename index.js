@@ -134,13 +134,11 @@ async function startBot() {
     logger.info("Application Started");
     console.log("EVM TX DEPLOYER BOT");
     console.log();
-    console.log("By : Widiskel");
-    console.log("Follow On : https://github.com/Widiskel");
-    console.log("Join Channel : https://t.me/skeldrophunt");
+    console.log("Follow On : https://x.com/0xsabie");
+    console.log("Join Channel : https://t.me/sabbirhossainairdrop");
     console.log("Dont forget to run git pull to keep up to date");
     console.log();
-    console.log();
-    Helper.showSkelLogo();
+    console.log();;
     await startBot();
   } catch (error) {
     console.log("Error During executing bot", error);
